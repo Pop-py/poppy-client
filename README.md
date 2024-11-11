@@ -1,81 +1,74 @@
-# Turborepo starter
+# **Poppy(FE)**
+![image](https://github.com/user-attachments/assets/1e918b9b-322e-4357-86e3-defa1d9e2e27)
 
-This is an official starter Turborepo.
+### **프로젝트 설명**
+>*"오늘은 어디서 Pop? Poppy가 알려줄게!"*
 
-## Using this example
+다양한 팝업 스토어의 소개와 예약 기능을 제공하는 모바일 앱 Poppy의 프론트 엔드입니다!
 
-Run the following command:
+---
 
-```sh
-npx create-turbo@latest
+## **목차**
+1. [프로젝트 개요](#프로젝트-개요)
+2. [기술 스택](#기술-스택)
+3. [설치 및 실행 방법](#설치-및-실행-방법)
+4. [팀 구성원](#팀-구성원)
+5. [라이선스](#라이선스)
+
+---
+
+## **프로젝트 개요**
+- 팝업 스토어 조회 기능  
+- 팝업 스토어 예약 기능
+- 팝업 스토어 추천 기능
+- 팝업 스토어 리뷰 기능
+- 기타 등등
+
+---
+
+## **기술 스택**
+프로젝트에서 사용한 주요 기술을 나열합니다.  
+- **프론트엔드**: React Native, Next.js
+- **CSS**: SCSS, Tailwind, Styled Component
+- **상태 관리**: Redux, Zustand
+- **기타**: Docker, Turbo
+
+---
+
+## **설치 및 실행 방법**
+
+### **사전 요구사항**
+- Node.js (v18 이상)
+- Docker (선택 사항)
+
+### **설치 과정**
+```bash
+# 프로젝트 클론
+git clone https://github.com/Pop-py/poppy-client.git
+
+# 디렉토리 이동
+cd poppy-client
+
+# 의존성 설치
+npm install
+
+# 개발 서버 실행
+pnpm run dev
 ```
 
-## What's inside?
+---
 
-This Turborepo includes the following packages/apps:
+## **팀 구성원**
+**디자이너**
+- 신민경
 
-### Apps and Packages
+**개발자**
+- 호범
+- 오세원
+- 이동규
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+---
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-
-### Build
-
-To build all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm build
-```
-
-### Develop
-
-To develop all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm dev
-```
-
-### Remote Caching
-
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
-
-```
-cd my-turborepo
-npx turbo login
-```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
-
-```
-npx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+## **라이선스**
+이 프로젝트는 MIT 라이선스를 따릅니다.  
+[LICENSE 파일](./LICENSE)을 참고하세요.
